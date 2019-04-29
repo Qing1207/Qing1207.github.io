@@ -15,19 +15,19 @@
 
 
 
-<meta name="description" content="前言1.MarkDown 优点 纯文本，易于编辑，跨平台支持 语法简单，易学，容读 方便转换为 Html 和 PDF，适合网站写作，成为一种网络书写语言 支持 Html 特性，可以自定义复杂样式  2. 支持网站 GitHub StackOverflow CSDN OpenStreetMap 博客园 简书 知乎  3. 笔记 有道云笔记 云协作 为知笔记 外部内容插件收集  4. 编辑器 Typo">
+<meta name="description" content="前言1.MarkDown 优点 纯文本，易于编辑，跨平台支持 语法简单，易学，容读 方便转换为 Html 和 PDF，适合网站写作，成为一种网络书写语言 支持 Html 特性，可以自定义复杂样式">
 <meta name="keywords" content="MarkDown,Typora">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MarkDown语法">
 <meta property="og:url" content="https://qing1207.github.io/2019/04/29/MarkDown/index.html">
 <meta property="og:site_name" content="Yuki Blog">
-<meta property="og:description" content="前言1.MarkDown 优点 纯文本，易于编辑，跨平台支持 语法简单，易学，容读 方便转换为 Html 和 PDF，适合网站写作，成为一种网络书写语言 支持 Html 特性，可以自定义复杂样式  2. 支持网站 GitHub StackOverflow CSDN OpenStreetMap 博客园 简书 知乎  3. 笔记 有道云笔记 云协作 为知笔记 外部内容插件收集  4. 编辑器 Typo">
+<meta property="og:description" content="前言1.MarkDown 优点 纯文本，易于编辑，跨平台支持 语法简单，易学，容读 方便转换为 Html 和 PDF，适合网站写作，成为一种网络书写语言 支持 Html 特性，可以自定义复杂样式">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://qing1207.github.io/2019/04/29/MarkDown/MarkDown.png">
-<meta property="og:updated_time" content="2019-04-29T02:41:12.558Z">
+<meta property="og:updated_time" content="2019-04-29T03:16:40.750Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MarkDown语法">
-<meta name="twitter:description" content="前言1.MarkDown 优点 纯文本，易于编辑，跨平台支持 语法简单，易学，容读 方便转换为 Html 和 PDF，适合网站写作，成为一种网络书写语言 支持 Html 特性，可以自定义复杂样式  2. 支持网站 GitHub StackOverflow CSDN OpenStreetMap 博客园 简书 知乎  3. 笔记 有道云笔记 云协作 为知笔记 外部内容插件收集  4. 编辑器 Typo">
+<meta name="twitter:description" content="前言1.MarkDown 优点 纯文本，易于编辑，跨平台支持 语法简单，易学，容读 方便转换为 Html 和 PDF，适合网站写作，成为一种网络书写语言 支持 Html 特性，可以自定义复杂样式">
 <meta name="twitter:image" content="https://qing1207.github.io/2019/04/29/MarkDown/MarkDown.png">
 
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -76,7 +76,7 @@
         isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
         scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
-        search: 
+        search: false
     }
 </script>
 
@@ -304,10 +304,11 @@
 <li>纯文本，易于编辑，跨平台支持</li>
 <li>语法简单，易学，容读</li>
 <li>方便转换为 Html 和 PDF，适合网站写作，成为一种网络书写语言</li>
-<li>支持 Html 特性，可以自定义复杂样式</li>
-</ul>
-<h3 id="2-支持网站"><a href="#2-支持网站" class="headerlink" title="2. 支持网站"></a>2. 支持网站</h3><ul>
-<li>GitHub</li>
+<li><p>支持 Html 特性，可以自定义复杂样式</p>
+<a id="more"></a>
+<h3 id="2-支持网站"><a href="#2-支持网站" class="headerlink" title="2. 支持网站"></a>2. 支持网站</h3></li>
+<li><p>GitHub</p>
+</li>
 <li>StackOverflow</li>
 <li>CSDN</li>
 <li>OpenStreetMap</li>
@@ -484,7 +485,7 @@
 <h1 id="十五、问题"><a href="#十五、问题" class="headerlink" title="十五、问题"></a>十五、问题</h1><ul>
 <li>Typora换行会自动产生一个空白行<br>​    使用<strong>shift+enter</strong>即可避免产生空白行。</li>
 <li>自动继承上一行格式<br>​    使用 <strong>ctrl+[</strong> 取消格式。</li>
-<li>Hexo使用MarkDown插入本地图片无法显示<br>配置<strong>_config.yml</strong>里面的<strong>post_asset_folder:false</strong>这个选项设置为<strong>true</strong>。<br>安装<strong>hexo-asset-image</strong>，运行<strong>hexo n “xxxx”</strong>来生成md博文时，<strong>/source/_posts</strong>文件夹内除了xxxx.md文件还有一个同名的文件夹，把图片放入该文件夹。<br>使用![xxx](xxx/xxx.png)直接插入图片即可。<br><code>npm install https://github.com/7ym0n/hexo-asset-image --sa</code></li>
+<li>Hexo使用MarkDown插入本地图片无法显示<br>配置<strong>_config.yml</strong>里面的<strong>post_asset_folder:false</strong>这个选项设置为<strong>true</strong>，<strong>url</strong>填写为自己的githubpage地址。<br>安装<strong>hexo-asset-image</strong>，运行<strong>hexo n “xxxx”</strong>来生成md博文时，<strong>/source/_posts</strong>文件夹内除了xxxx.md文件还有一个同名的文件夹，把图片放入该文件夹。<br>使用![xxx](xxx/xxx.png)直接插入图片即可。<br><code>npm install https://github.com/7ym0n/hexo-asset-image --sa</code></li>
 <li>表格合并，使用html代码<br><table><br><tr><br>  <th>列1</th><br>  <th>列2</th><br>  <th>列3</th><br></tr><br><tr><br>  <td>a1</td><br>  <td colspan="2">a2</td><br></tr><br><tr><br>  <td rowspan="2">b1</td><br>  <td>b2</td><br>  <td>b3</td><br></tr><br><tr><br>  <td>c2</td><br>  <td>c3</td><br></tr><br></table><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">table</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">th</span>&gt;</span>列1<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">th</span>&gt;</span>列2<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">th</span>&gt;</span>列3<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">td</span>&gt;</span>a1<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">td</span> <span class="attr">colspan</span>=<span class="string">"2"</span>&gt;</span>a2<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">td</span> <span class="attr">rowspan</span>=<span class="string">"2"</span>&gt;</span>b1<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">td</span>&gt;</span>b2<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">td</span>&gt;</span>b3<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">td</span>&gt;</span>c2<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">td</span>&gt;</span>c3<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
@@ -499,7 +500,7 @@
         <p><span>本文标题:</span><a href="/2019/04/29/MarkDown/">MarkDown语法</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">Yuki</a></p>
         <p><span>发布时间:</span>2019-04-29, 09:34:35</p>
-        <p><span>最后更新:</span>2019-04-29, 10:41:12</p>
+        <p><span>最后更新:</span>2019-04-29, 11:16:40</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2019/04/29/MarkDown/" title="MarkDown语法">https://qing1207.github.io/2019/04/29/MarkDown/</a>
             <span class="copy-path" data-clipboard-text="原文: https://qing1207.github.io/2019/04/29/MarkDown/　　作者: Yuki" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
